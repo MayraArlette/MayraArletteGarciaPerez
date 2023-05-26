@@ -1,0 +1,18 @@
+opcion=0
+while opcion!=5
+print("""Bienvenidos a mi programa
+Menu
+1.Suma
+2.Potencia
+3.División
+4.Resta
+5.Salir""")
+opcion=int(input("Ingresa tu opción"))
+valor_uno=int(input("ingresa tu primer valor"))
+valor_dos=int(input("ingresa tu segundo valor"))
+if opcion==1:
+  print("La suma es", valor_1+valor_2)
+if opcion==2:
+  print("La potencia es", valor_1**valor_2)
+if opcion==3:
+   print("La potencia es", valor_1**valor_2)
